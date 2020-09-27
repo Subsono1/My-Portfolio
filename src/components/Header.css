@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+
+.header {
+  
+  background: purple;
+  height: 95vh;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: center;
+ 
+  width: 100vw;
+  margin: auto;
+  
+
+}
+
+.header-nav_links{
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-brand_div {
+  padding-left: 0px;
+  height: 200px;
+  width: 200px;
+ 
+}
+
+.header-brand {
+  height: 100px;
+  width: 220px;
+ 
+}
+
+.header-text_box {
+  
+  
+  text-align: center;
+  padding-top: 5%;
+}
+
+.my-name{
+  font-size: 50px;
+}
+
+.description {
+  font-size: 30px;
+}
