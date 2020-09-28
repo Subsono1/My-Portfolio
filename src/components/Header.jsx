@@ -21,7 +21,7 @@ function Header() {
       </nav>
       <div className="header-brand_div">
         {/* <h1 className="header-brand">SD</h1> */}
-        <img src={ require('../assets/SD.png')} alt="logo-initials" className="header-brand">
+        <img src={ require('../images/SD.png')} alt="logo-initials" className="header-brand">
 
         </img>
       
