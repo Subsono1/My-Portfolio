@@ -1,0 +1,62 @@
+.description-div {
+  display: flex;
+  justify-content: ;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 30px;
+
+
+}
+
+.about-me {
+  font-size: 35px;
+}
+
+.brand-statement {
+  width: 80vw;
+  font-size: 23px;
+
+}
+
+.skills-main-div {
+ display: flex;
+justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ height: 80vh;
+  width: 100vw;
+  
+}
+
+.skills-div {
+ 
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 25px;
+  margin: auto;
+  /* text-align: center; */
+  border-radius:8px;
+  box-shadow: 8px 9px 10px 5px gray;
+  width: 50vw;
+  padding: 40px;
+}
+
+.icon-title{
+text-align: center;
+font-size: 35px;
+}
+
+.tech-icon {
+  font-size: 9vw;
+ 
+}
+.icon-div {
+  transition: transform .8s, filter 2s ease-out;
+}
+
+.icon-div:hover {
+  transform: scale(1.3);
+
+}
+
