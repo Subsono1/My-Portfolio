@@ -1,5 +1,6 @@
 import React from 'react'
 import LanguageIcon from '@material-ui/icons/Language';
+import './Project.css'
 
 
 
@@ -11,8 +12,8 @@ function Projects(props) {
       <h1>{data.name}</h1>
         <p>{data.description}</p>
         </div>
-      <div>
-        <img src={data.image} alt="website-image" />
+      <div className="website-image_div">
+        <img src={data.image} alt="website-image" className="website-image" />
         </div>
       <h3>Used to Build</h3>
       <div>

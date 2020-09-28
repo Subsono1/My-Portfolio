@@ -21,37 +21,37 @@ function AboutSkills() {
       <div className='skills-main-div'>
       <div className='skills-div'>
         <div className="icon-div">
-          <i className="devicon-html5-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-html5-plain-wordmark  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-css3-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-css3-plain-wordmark  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-javascript-plain colored tech-icon"></i>
+          <i className="devicon-javascript-plain  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-react-original-wordmark colored tech-icon"></i>
+          <i className="devicon-react-original-wordmark tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-rails-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-rails-plain-wordmark  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-ruby-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-ruby-plain-wordmark  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-nodejs-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-nodejs-plain-wordmark  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-express-original colored tech-icon"></i>
+          <i className="devicon-express-original  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-mongodb-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-mongodb-plain-wordmark  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-postgresql-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-postgresql-plain-wordmark  tech-icon"></i>
         </div>
         <div className="icon-div">
-          <i className="devicon-git-plain-wordmark colored tech-icon"></i>
+          <i className="devicon-git-plain-wordmark  tech-icon"></i>
         </div>
       </div>
       </div>

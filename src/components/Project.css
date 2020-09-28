@@ -1,0 +1,10 @@
+.website-image_div {
+  display: flex;
+  flex-direction: row;
+  height: 30vw;
+  width: 50vw;
+}
+.website-image {
+  height: 50vh;
+  width: 50vw;
+}
