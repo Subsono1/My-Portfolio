@@ -6,7 +6,7 @@ function AboutSkills() {
     <div className="about-skills-div">
       <div className="description-div" id="about">
         <h1 className="about-me">About Me</h1>
-        
+        <div className="brand-statement-div">
         <p className="brand-statement">
           Software engineer with a long experience in the performing arts
           industry who values creativity and self-driven results. Passionate
@@ -15,10 +15,11 @@ function AboutSkills() {
           learning programming to create innovative applications, and look
           forward to my next challenge.
         </p>
+        </div>
         
       </div>
       <div className="icon-title-div">
-        <h1 className="icon-title">Known Technologies</h1>
+        <h1 className="icon-title">Technology Skills</h1>
         </div>
       <div className='skills-main-div'>
       <div className='skills-div'>
