@@ -7,33 +7,46 @@ import './Project.css'
 function Projects(props) {
   const {data}=props
   return (
-    <div>
-      <div>
-      <h1>{data.name}</h1>
-        <p>{data.description}</p>
+    
+   
+    <div className="projects-container_div" >
+      
+      <div  className="name-desciption_div">
+      <h1 className="project-name">{data.name}</h1>
+        <p className="project-description">{data.description}</p>
         </div>
       <div className="website-image_div">
         <img src={data.image} alt="website-image" className="website-image" />
         </div>
-      <h3>Used to Build</h3>
-      <div>
+        <div className="build-with-div">
+      
+      
+      <div className="project-icons-div">
       {data.icons.map((icon, i) => {
-        return <i key={i} className={`${icon} project-icons`}></i>
+        return <i key={i} className={`${icon} project-icon`}></i>
       })}
-        </div>
-       <div>
+          </div>
+          
+        <div className="project-buttons-div">
+          <div className="project-button">
       <a href={data.github} target="_blank">
-        <i class="devicon-github-plain-wordmark colored github"></i>Source
-      </a>
-      </div>
-      <div>
-        <a href={data.live} target="_blank" > <LanguageIcon />Live</a>
+        <i class="devicon-github-plain  github"></i>
+            </a>
+            <p className="githubP">Github</p>
+            </div>
+          <div className="project-button">
+           
+            <a href={data.live} target="_blank"  > <LanguageIcon className="live" /></a>
+            <p className="liveP">Live</p>
+        </div>
+          </div>
         </div>
       
       
 
       
-    </div>
+      </div>
+      
   )
 }
 

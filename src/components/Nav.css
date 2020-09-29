@@ -1,0 +1,23 @@
+.header-nav{
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  width: 100vw;
+  margin: auto;
+  position:fixed;
+  z-index: 1000;
+  height: 30px;
+  
+  
+
+}
+
+.header-nav_links{
+  display: flex;
+  /* padding-right: 30px; */
+  
+  text-decoration: none;
+  margin: 0 auto;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.portfolio-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  /* text-align: center; */
+  margin-top: -20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(76, 94, 154);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40px;
+  
+ 
+
+}
+.portfolio-text:hover{
+  transform: rotate(6deg);
+  
+  
+}
+
+.portfolio-text-div {
+ 
+
+  
+}

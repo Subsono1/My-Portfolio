@@ -4,50 +4,83 @@
 
 .header {
   
-  background: purple;
-  height: 95vh;
-}
-
-.header-nav{
-  display: flex;
-  justify-content: center;
- 
-  width: 100vw;
-  margin: auto;
   
+  height: 95vh;
+  width: 100vw;
+  
+  padding-top: 100px;
+  background-image: linear-gradient(to right bottom, #1e73acb3, rgba(158, 73, 170, 0.6)), url("https://media.giphy.com/media/1nbweFkb6kqVhNCwJ4/giphy.gif");
+  background-size:  cover;
+  background-position: top;
+  margin-bottom: 20px; 
 
+  /* background-image: url("https://media.giphy.com/media/11AyYDOVV6K2wE/giphy.gif");  https://media.giphy.com/media/tL5HmgfZi0Qow/giphy.gif*/
+  
+ 
+ 
 }
 
-.header-nav_links{
-  padding: 30px;
-  text-decoration: none;
-  color: black;
-}
+
 
 .header-brand_div {
   padding-left: 0px;
   height: 200px;
   width: 200px;
  
+
+  
+ 
+ 
 }
 
 .header-brand {
   height: 100px;
   width: 220px;
+  
  
 }
 
 .header-text_box {
   
-  
+  width: 40vw;
   text-align: center;
-  padding-top: 5%;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+ 
+  
+  
 }
 
 .my-name{
-  font-size: 50px;
+  color: #f7f7f7f7;
+  font-size: 80px;
+  animation: move-text-color 3.0s forwards;
+  
 }
 
 .description {
+  text-transform: capitalize;
+  color: #f7f7f7f7;
   font-size: 30px;
+}
+
+@keyframes move-text-color {
+  0% {
+      bottom: -0.2em;
+      opacity: 1;
+      color: #1e73acb3;
+  }
+  
+  50% {
+      bottom: 0.2em;
+      color: #f36a5e;
+  }
+
+  100% {
+      bottom: 0;
+      opacity: 1;
+  color: #fff;
+  }
 }

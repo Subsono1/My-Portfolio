@@ -1,10 +1,164 @@
-.website-image_div {
+body {
+  box-sizing: border-box;
+  
+} 
+
+
+.projects-container_div {
   display: flex;
-  flex-direction: row;
-  height: 30vw;
+  flex-direction: row-reverse;
+  width: 100vw;
+  height: 70vh; 
+  padding-left: 40px;
+  padding-top: 60px;
+  background: rgba(0, 0, 0, .9);
+  /* background-image:      linear-gradient(to right, #64495E, #4C5F9A); */
+  /* background: rgba(76, 94, 154); */
+ 
+  margin-top: -21px;
+  
+}
+
+
+
+.name-desciption_div {
+  display: flex;
   width: 50vw;
+  padding: 40px;
+  padding-right: 30px;
+ 
+ flex-direction: column;
+ 
+
+}
+
+.project-description {
+  line-height: 2rem;
+ font-size: 17px;
+ font-weight: 500;
+ color: #f7f7f7f7;
+  
+ 
+}
+
+.project-name {
+  font-weight: 900;
+  color: #f7f7f7f7;
+  font-size:40px ;
+}
+
+.build-with-div {
+  /* padding-top: 200px; */
+  width: 35vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-right: 20px;
+ 
+
+ 
+  
+  
+  
+  
+ 
+}
+
+
+
+.project-icons-div {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% ;
+  grid-gap: 15px;
+  margin-bottom: 0px;
+  
+ 
+}
+
+
+
+.project-icon {
+ font-size: 50px;
+ padding-left: 10px;
+ 
+}
+.project-button{
+  transition: transform .8s, filter 2s ease-out;
+}
+
+.project-button:hover {
+  transform: scale(1.3);
+}
+
+
+.project-buttons-div {
+ 
+ 
+ padding-top: 100px;
+ display: grid;
+ grid-template-columns: 55% 50%  ;
+ grid-gap: 25px;
+ transition: transform .8s, filter 2s ease-out;
+ 
+  
+}
+
+
+
+
+
+.github, .live {
+  
+  
+  font-size: 60px !important;
+  margin: auto;
+  color:#f7f7f7f7;
+ 
+ 
+  
+  
+}
+a {
+  text-decoration: none;
+}
+
+.live {
+  font-size: 60px !important;
+  color: #fff;
+  margin-left: 15px;
+}
+
+
+
+.liveP{
+  padding-left: 30px;
+  padding-bottom: 5px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.githubP{
+  padding-left: 8px;
+  padding-top: 3px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.website-image_div {
+  border-radius: 8px;
+  
+  
+  
+  
+ 
 }
 .website-image {
   height: 50vh;
   width: 50vw;
+  border-radius: 8px;
+
+  box-shadow: 2px 3px 2px 3px black;
 }

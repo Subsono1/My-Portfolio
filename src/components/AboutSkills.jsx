@@ -3,8 +3,8 @@ import "./AboutSkills.css";
 
 function AboutSkills() {
   return (
-    <div>
-      <div className="description-div">
+    <div className="about-skills-div">
+      <div className="description-div" id="about">
         <h1 className="about-me">About Me</h1>
         
         <p className="brand-statement">
@@ -17,7 +17,9 @@ function AboutSkills() {
         </p>
         
       </div>
-      <h1 className="icon-title">Known Technologies</h1>
+      <div className="icon-title-div">
+        <h1 className="icon-title">Known Technologies</h1>
+        </div>
       <div className='skills-main-div'>
       <div className='skills-div'>
         <div className="icon-div">
