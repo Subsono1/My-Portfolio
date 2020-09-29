@@ -45,9 +45,9 @@
   width: 40vw;
   text-align: center;
   top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
+  left: 50.5%;
+   transform: translate(-50%, -50%);
+   position: absolute;
  
   
   
@@ -55,13 +55,14 @@
 
 .my-name{
  
- 
+ letter-spacing: 6px;
   font-size: 80px;
   animation: move-text-color 3.0s forwards;
   
 }
 
 .description {
+  letter-spacing: 5px;
   text-transform: uppercase;
   color: #f7f7f7f7;
   font-size: 30px;
