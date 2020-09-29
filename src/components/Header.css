@@ -54,14 +54,15 @@
 }
 
 .my-name{
-  color: #f7f7f7f7;
+ 
+ 
   font-size: 80px;
   animation: move-text-color 3.0s forwards;
   
 }
 
 .description {
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #f7f7f7f7;
   font-size: 30px;
 }
@@ -81,6 +82,6 @@
   100% {
       bottom: 0;
       opacity: 1;
-  color: #fff;
+  color: #f7f7f7f7;
   }
 }

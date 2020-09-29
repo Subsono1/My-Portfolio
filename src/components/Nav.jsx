@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, animateScroll as scroll} from 'react-scroll'
 import './Nav.css'
+import HomeIcon from '@material-ui/icons/Home';
 
 function Nav() {
   return (
@@ -13,11 +14,11 @@ function Nav() {
      <Link to="projects" smooth={true} duration={2000} className="header-nav_links">
        PROJECTS 
      </Link>
-     <Link className="header-nav_links">
+     <Link to="contact" smooth={true} duration={2000} className="header-nav_links contact-me">
           CONTACT ME!
      </Link>
-     <Link className="header-nav_links">
-     CONTACT ME!
+     <Link to="home" smooth={true} duration={2000} className="header-nav_links ">
+     <HomeIcon className='home' />
      </Link>
    </nav>
     </div>

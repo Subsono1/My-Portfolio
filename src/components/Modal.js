@@ -33,6 +33,7 @@ export default function TransitionsModal() {
 
   return (
     <div>
+      
       <button type="button" onClick={handleOpen}>
       View Demo
       </button>
@@ -50,16 +51,16 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <h2 id="transition-modal-title">Demo</h2>
+            <h2 id="transition-modal-title">View Demo</h2>
+            {projectSource.map((project, i) => {
+              
+              return (
           
          
-          <video src='https://recordit.co/RKCAVRn0Xo' id="transition-modal-description" width="350" height="400" controls>
-          
-          </video>
-          
-          
+          <p id="transition-modal-description">{project.name[i]}</p>
 
-      
+        )
+      })}
             
           </div>
         </Fade>

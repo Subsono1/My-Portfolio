@@ -3,6 +3,15 @@ import LanguageIcon from '@material-ui/icons/Language';
 import './Project.css'
 import Modal from "./Modal";
 
+import styled, { keyframes } from 'styled-components';
+import { fadeInRight} from 'react-animations';
+ 
+const fadeIn = keyframes`${fadeInRight}`;
+ 
+const FadeDiv = styled.div`
+  animation: 3s ${fadeIn};
+`;
+
 
 
 function Projects(props) {
@@ -15,11 +24,11 @@ function Projects(props) {
       <div  className="name-desciption_div">
       <h1 className="project-name">{data.name}</h1>
         <p className="project-description">{data.description}</p>
-        <Modal/>
+        {/* <Modal/> */}
         </div>
-      <div className="website-image_div">
+      <FadeDiv className="website-image_div">
         <img src={data.image} alt="website-image" className="website-image" />
-        </div>
+        </FadeDiv>
         <div className="build-with-div">
       
       

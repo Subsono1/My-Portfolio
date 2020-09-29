@@ -39,21 +39,84 @@ margin-top: 40px;
   width: 45vw;
   height: 40px;
   margin: 15px;
+  padding-left: 20px;
   border-radius: 10px;
   
 }
+textarea{
+  resize: none;
+  height: 150px;
+  background: #ffffff;
+  opacity: .7;
+  outline: none;
+  padding-left: 20px;
+  border:2px solid black;
+  width: 45vw;
+  /* padding-left: 10px; */
+  margin: 15px;
+  border-radius: 10px;
+}
+
+textarea:hover{
+  border: 4px solid green;
+}
+.contact-input:hover {
+  border: 4px solid green;
+}
+
+textarea::placeholder {
+  font-family: 'Lato', sans-serif;
+}
+
 
 .submit {
-  display: flex !important;
-  justify-content: center !important;
-    align-items: center !important;
-    margin: auto !important;
-    width: 40vw !important;
-    height: 30px !important;
-    outline: none !important;
-    cursor: pointer !important;
-    border: none !important;
-    border-radius: 8px !important;
+  display: flex ;
+  justify-content: center ;
+    align-items: center ;
+    margin: auto ;
+    width: 40vw ;
+    height: 30px ;
+    outline: none ;
+    cursor: pointer ;
+    border: none ;
+    border-radius: 8px ;
+    color: rgba(76, 94, 154);
+    font-size: 20px;
+    font-weight: 800;
     
 
+}
+
+.submit:hover{
+  border: 6px solid rgb(13, 120, 243);
+  color: black;
+  opacity: .7;
+
+
+}
+.contact-links {
+  display: flex;
+
+}
+
+.contact-github, .contact-in {
+  padding:50px;
+  
+  transition: transform .8s, filter 1s ease-out;
+}
+
+.in, .git {
+  padding: 30px;
+  font-size: 80px;
+  
+}
+
+.contact-github:hover{
+  transform: scale(1.3);
+  transform: rotate(-20deg);
+}
+
+.contact-in:hover {
+  transform: scale(1.3);
+  transform: rotate(20deg);
 }

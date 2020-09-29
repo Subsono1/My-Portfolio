@@ -6,7 +6,7 @@
   margin: auto;
   position:fixed;
   z-index: 1000;
-  height: 30px;
+  height: 38px;
   
   
 
@@ -14,10 +14,30 @@
 
 .header-nav_links{
   display: flex;
-  /* padding-right: 30px; */
-  
+  padding-top: 10px;
+  font-weight: 900;
   text-decoration: none;
   margin: 0 auto;
   color: black;
   cursor: pointer;
+  
+}
+
+.home {
+  font-size: 30px !important ;
+  padding-bottom: 6px;
+}
+
+.header-nav_links:hover {
+  border-bottom: 4px solid rgba(76, 94, 154);
+  color: green;
+  background-color:black;
+  /* border-radius: 6px; */
+  opacity: .8;
+  color: #f7f7f7f7;
+ 
+}
+
+.contact-me{
+  color: red;
 }
