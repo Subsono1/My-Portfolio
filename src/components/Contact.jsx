@@ -9,13 +9,14 @@ function Contact() {
     </div>
     
       <div className="contact-div">
-        <form classNmae="contact-form">
-          <input className="contact-input" type="text" placeholder="SUBJECT" required />
-          <input className="contact-input"type="email" placeholder="EMAIL" required />
-          <textarea  rows="8" cols="250" type="text" placeholder="YOUR MESSAGE" required />
+        <form classNmae="contact-form" name="contact" action="/contact" method="post">
+          <input type="hidden" name="form-name" value="contact"/>
+          <input className="contact-input" type="text" name="subject" placeholder="SUBJECT" required />
+          <input className="contact-input"type="email" name="email" placeholder="EMAIL" required />
+          <textarea  rows="8" cols="250" type="text" name="message" placeholder="YOUR MESSAGE" required />
           
           <br />
-          <button className="submit" >Submit</button>
+          <button className="submit" type="submit" >Submit!</button>
         </form>
         <br />
         <div className="contact-links">
