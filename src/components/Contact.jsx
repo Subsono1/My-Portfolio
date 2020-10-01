@@ -10,7 +10,7 @@ function Contact() {
     
       <div className="contact-div">
         <form classNmae="contact-form">
-          <input className="contact-input" type="name" placeholder="NAME" required />
+          <input className="contact-input" type="text" placeholder="SUBJECT" required />
           <input className="contact-input"type="email" placeholder="EMAIL" required />
           <textarea  rows="8" cols="250" type="text" placeholder="YOUR MESSAGE" required />
           
