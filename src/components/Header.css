@@ -57,7 +57,7 @@
  
  letter-spacing: 6px;
   font-size: 80px;
-  animation: move-text-color 3.0s forwards;
+  animation: move-text-color 3.0s infinite;
   
 }
 
@@ -84,5 +84,33 @@
       bottom: 0;
       opacity: 1;
   color: #f7f7f7f7;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .header{
+    width: 100vw;
+  }
+  .header-text_box {
+    width: 80vw;
+    margin: auto;
+     
+      
+      
+    
+  }
+
+  .my-name{
+    font-size:45px ;
+    margin: auto;
+    padding-left: 0px;
+    margin-left: 0;
+  }
+
+  .description {
+font-size: 25px;
+padding-left: 7px ;
   }
 }

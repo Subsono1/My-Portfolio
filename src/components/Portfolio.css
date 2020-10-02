@@ -22,8 +22,10 @@
   
 }
 
-.portfolio-text-div {
- 
 
-  
+
+@media screen and (max-width: 600px) {
+  .portfolio-text{
+    font-size: 28px;
+  }
 }

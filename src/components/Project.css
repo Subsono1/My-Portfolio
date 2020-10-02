@@ -165,3 +165,83 @@ transform: scale(1.1);
 
   box-shadow: 2px 3px 2px  #f7f7f7f7;
 }
+
+
+@media screen and (max-width: 600px) {
+  .projects-container_div {
+    height:109vh;
+    display: block;
+    padding-top: 0px;
+    
+
+
+  }
+
+  .name-desciption_div{
+    width: 100vw;
+    margin: auto;
+   padding-left: 0;
+   padding-top: 0;
+  }
+
+  .project-description {
+    line-height: 1rem;
+   font-size: 16px;
+   width: 80vw;
+   padding-top: 0px;
+   
+  }
+
+  .project-name {
+    
+    font-size:  28px;
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+
+ 
+
+   .website-image_div {
+    
+   width: 100vw;
+   padding-left: 0;
+   height: 300px;
+   margin: auto;
+   padding-top: 0px;
+
+    
+  }
+
+  .website-image {
+    width: 80vw;
+    height: 300px;
+   margin: auto;
+   padding-left: 0;
+  }
+
+  .build-with-div {
+    /* text-align: center; */
+    width: 80vw;
+   
+    margin: auto;
+    padding-bottom: 0;
+   margin-bottom: 2px;
+    padding-top: 120px;
+
+  }
+
+  .project-buttons-div {
+    width: 50vw;
+    height: 300px;
+    padding-top: 25px;
+    margin: auto;
+  }
+  
+  .github {
+    font-size: 35px !important;
+  }
+
+  .live{
+    font-size: 35px !important;
+  }
+}
