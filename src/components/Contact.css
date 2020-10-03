@@ -98,20 +98,33 @@ textarea::placeholder {
 }
 .contact-links {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
-.contact-github, .contact-in {
-  padding:50px;
+.contact-github,
+ .contact-in, 
+ .contact-resume {
+  padding:40px;
   
   transition: transform .8s, filter 1s ease-out;
 }
 
-.in, .git {
+.in, 
+.git
+ {
   padding: 30px;
   font-size: 80px;
+  color: black;
   
 }
+.resume {
+  font-size: 81px !important;
+  
+  color: black;
+}
+
 
 .contact-github:hover{
   transform: scale(1.3);
@@ -123,3 +136,7 @@ textarea::placeholder {
   transform: rotate(20deg);
 }
 
+.contact-resume:hover {
+  transform: scale(1.3);
+  
+}
