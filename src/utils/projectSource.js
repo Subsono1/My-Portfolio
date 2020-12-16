@@ -52,6 +52,21 @@ const projectSource = [
     github: "https://github.com/Subsono1/Vending-Market",
     live: "https://tender-borg-6f3080.netlify.app/",
   },
+  {
+    name: "Twitter-Clone",
+    description:
+      "A simple Twitter clone (guided by cleverprogrammer). is a front end and back end project using firebase as the back end source. ",
+    image: require("../images/Clone.png"),
+    icons: [
+      
+      "devicon-react-original-wordmark colored",
+      
+      
+    ],
+   
+    github: "https://github.com/Subsono1/twitter-clone-project",
+    live: "https://epic-tereshkova-4afe02.netlify.app/",
+  },
 ];
 
 export default projectSource;

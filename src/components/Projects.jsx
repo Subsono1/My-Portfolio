@@ -24,7 +24,7 @@ function Projects(props) {
       <div  className="name-desciption_div">
       <h1 className="project-name">{data.name}</h1>
         <p className="project-description">{data.description}</p>
-        {/* <Modal/> */}
+       
         </div>
       <FadeDiv className="website-image_div">
         <img src={data.image} alt="website-image" className="website-image" />
