@@ -57,7 +57,7 @@ function Contact() {
           </div>
           <div className="contact-resume">
             <a
-              href="https://drive.google.com/file/d/1m18L6hcmiTdNReiqpLiE4cjOsH7stscY/view?usp=sharing"
+              href="https://drive.google.com/file/d/1qoz6McT6GIFZJ1mbjqgWa-ks4acQNAUk/view?usp=sharing"
               target="_blank" 
             >
                <DescriptionIcon className="resume" />
