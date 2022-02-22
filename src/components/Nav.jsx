@@ -6,14 +6,15 @@ import HomeIcon from '@material-ui/icons/Home';
 function Nav() {
   return (
     <div>
-       <nav className="header-nav">
+      <nav className="header-nav">
+      <Link to="projects" smooth={true} duration={2000} className="header-nav_links">
+       PROJECTS 
+     </Link>
      
      <Link to="about" smooth={true} duration={2000} className="header-nav_links">
        ABOUT 
      </Link >
-     <Link to="projects" smooth={true} duration={2000} className="header-nav_links">
-       PROJECTS 
-     </Link>
+     
      <Link to="contact" smooth={true} duration={2000} className="header-nav_links contact-me">
           CONTACT ME!
      </Link>
